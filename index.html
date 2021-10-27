@@ -15,17 +15,37 @@
   border: 1px solid #000000;
   margin-bottom: 10px;
 }
-	</style>
-			<style>
+
 	.wrap-4{
   position: relative;
-  width: 525px;
+  width: 2400px;
 /*   width: 100%; */
-  background-color: #ffc0cb;
+  background-color: #f1eef0;
   border: 1px solid #000000;
   margin-bottom: 10px;
 }
-	</style>
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
 
 </head>
 <body>
@@ -36,7 +56,20 @@
 <center>
 	<div class="wrap-4">
 	<h1>Welcome to Winston Game Hub</h1>
-	    <img src="https://github.com/Host4/image/blob/main/controls.png?raw=true" alt="Controls" width="500" height="250">
+		
+		
+    <div class="row">
+  <div class="column">
+    <img src="https://github.com/wgh5/Images/blob/main/Winston.jpg?raw=true" alt="" width="800" height="250">
+  </div>
+  <div class="column">
+    <img src="https://github.com/Host4/image/blob/main/controls.png?raw=true" alt="" width="500" height="250">
+  </div>
+  <div class="column">
+    <img src="https://github.com/wgh5/Images/blob/main/Quinn.jpg?raw=true" alt="" width="500" height="250">
+  </div>
+</div>
+		
 	    <br>
 	    (Note: These controls don't work for a majority of non-GBA games)
 	</div>

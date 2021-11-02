@@ -5,6 +5,8 @@
   background-color: #ffc0cb;
   border: 1px solid #000000;
   margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
 }
 
 	.wrap-4{
@@ -15,6 +17,14 @@
   border: 1px solid #000000;
   margin-bottom: 10px;
 }
+	.wrap-5{
+  position: relative;
+  width: 420px;
+/*   width: 100%; */
+  background-color: #ffc0cb;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+	}
 
 .column {
   float: left;

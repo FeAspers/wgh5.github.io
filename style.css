@@ -27,7 +27,7 @@
 
 .column {
   float: left;
-  width: ;
+  width: 33.33%;
   padding: 5px;
 }
 
@@ -42,6 +42,6 @@
 }
 
 .column {
-  flex: ;
+  flex: 33.33%;
   padding: 5px;
 }
